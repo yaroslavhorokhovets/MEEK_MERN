@@ -1,0 +1,131 @@
+// Savoy Regular
+@font-face {
+  font-family: 'Savoy-Regular';
+  src: url('../../fonts/Savoy-Regular/Savoy-Regular.eot');
+  src: url('../../fonts/Savoy-Regular/Savoy-Regular.eot?#iefix') format('embedded-opentype'),
+       url('../../fonts/Savoy-Regular/Savoy-Regular.woff2') format('woff2'),
+       url('../../fonts/Savoy-Regular/Savoy-Regular.woff') format('woff'),
+       url('../../fonts/Savoy-Regular/Savoy-Regular.ttf') format('truetype'),
+       url('../../fonts/Savoy-Regular/Savoy-Regular.svg#Savoy-Regular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+// ChronicleDisp
+@font-face {
+  font-family: 'ChronicleDisp-Semibold';
+  src: url('../../fonts/ChronicleDisp-Semibold/ChronicleDisp-Semibold.eot');
+  src: url('../../fonts/ChronicleDisp-Semibold/ChronicleDisp-Semibold.eot?#iefix') format('embedded-opentype'),
+       url('../../fonts/ChronicleDisp-Semibold/ChronicleDisp-Semibold.woff') format('woff'),
+       url('../../fonts/ChronicleDisp-Semibold/ChronicleDisp-Semibold.ttf') format('truetype'),
+       url('../../fonts/ChronicleDisp-Semibold/ChronicleDisp-Semibold.svg#chronicleDispSemibold') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'ChronicleDisp-SemiboldItal';
+  src: url('../../fonts/ChronicleDisp-SemiboldItal/ChronicleDisp-SemiboldItal.eot');
+  src: url('../../fonts/ChronicleDisp-SemiboldItal/ChronicleDisp-SemiboldItal.eot?#iefix') format('embedded-opentype'),
+       url('../../fonts/ChronicleDisp-SemiboldItal/ChronicleDisp-SemiboldItal.woff') format('woff'),
+       url('../../fonts/ChronicleDisp-SemiboldItal/ChronicleDisp-SemiboldItal.ttf') format('truetype'),
+       url('../../fonts/ChronicleDisp-SemiboldItal/ChronicleDisp-SemiboldItal.svg#chronicleDispSemiboldItal') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+// Bree
+@font-face {
+  font-family: 'BreeSerif-Regular';
+  src: url('../../fonts/Bree/BreeSerif-Regular.otf') format('opentype');
+
+  font-weight:normal;
+  font-style:normal;
+}
+
+
+// Bitter
+@font-face {
+  font-family: 'Bitter-Regular';
+  src: url('../../fonts/Bitter/regular/bitter-regular-webfont.eot');
+  src: url('../../fonts/Bitter/regular/bitter-regular-webfont.eot?#iefix') format('embedded-opentype'),
+       url('../../fonts/Bitter/regular/bitter-regular-webfont.woff2') format('woff2'),
+       url('../../fonts/Bitter/regular/bitter-regular-webfont.woff') format('woff'),
+       url('../../fonts/Bitter/regular/bitter-regular-webfont.ttf') format('truetype'),
+       url('../../fonts/Bitter/regular/bitter-regular-webfont.svg#bitterregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Bitter-Bold';
+  src: url('../../fonts/Bitter/bold/bitter-bold-webfont.eot');
+  src: url('../../fonts/Bitter/bold/bitter-bold-webfont.eot?#iefix') format('embedded-opentype'),
+       url('../../fonts/Bitter/bold/bitter-bold-webfont.woff2') format('woff2'),
+       url('../../fonts/Bitter/bold/bitter-bold-webfont.woff') format('woff'),
+       url('../../fonts/Bitter/bold/bitter-bold-webfont.ttf') format('truetype'),
+       url('../../fonts/Bitter/bold/bitter-bold-webfont.svg#bitterbold') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Bitter-Italic';
+  src: url('../../fonts/Bitter/italic/bitter-italic-webfont.eot');
+  src: url('../../fonts/Bitter/italic/bitter-italic-webfont.eot?#iefix') format('embedded-opentype'),
+       url('../../fonts/Bitter/italic/bitter-italic-webfont.woff2') format('woff2'),
+       url('../../fonts/Bitter/italic/bitter-italic-webfont.woff') format('woff'),
+       url('../../fonts/Bitter/italic/bitter-italic-webfont.ttf') format('truetype'),
+       url('../../fonts/Bitter/italic/bitter-italic-webfont.svg#bitteritalic') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+// Open-Sans
+@font-face {
+  font-family: 'Open-Sans-Regular';
+
+  src: url('../../fonts/OpenSans/regular/OpenSans-Regular-webfont.eot');
+  src: url('../../fonts/OpenSans/regular/OpenSans-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+       url('../../fonts/OpenSans/regular/OpenSans-Regular-webfont.woff') format('woff'),
+       url('../../fonts/OpenSans/regular/OpenSans-Regular-webfont.ttf') format('truetype'),
+       url('../../fonts/OpenSans/regular/OpenSans-Regular-webfont.svg#open_sansregular') format('svg');
+
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Open-Sans-Light';
+
+  src: url('../../fonts/OpenSans/light/OpenSans-Light-webfont.eot');
+  src: url('../../fonts/OpenSans/light/OpenSans-Light-webfont.eot?#iefix') format('embedded-opentype'),
+       url('../../fonts/OpenSans/light/OpenSans-Light-webfont.woff') format('woff'),
+       url('../../fonts/OpenSans/light/OpenSans-Light-webfont.ttf') format('truetype'),
+       url('../../fonts/OpenSans/light/OpenSans-Light-webfont.svg#open_sanslight') format('svg');
+
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Open-Sans-Bold';
+
+  src: url('../../fonts/OpenSans/bold/OpenSans-Bold-webfont.eot');
+  src: url('../../fonts/OpenSans/bold/OpenSans-Bold-webfont.eot?#iefix') format('embedded-opentype'),
+       url('../../fonts/OpenSans/bold/OpenSans-Bold-webfont.woff') format('woff'),
+       url('../../fonts/OpenSans/bold/OpenSans-Bold-webfont.ttf') format('truetype'),
+       url('../../fonts/OpenSans/bold/OpenSans-Bold-webfont.svg#open_sansbold') format('svg');
+
+  font-weight: normal;
+  font-style: normal;
+}
+
+// Bungee Regular
+@font-face {
+  font-family: 'Bungee';
+  src: url('../../fonts/Bungee/Bungee-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}

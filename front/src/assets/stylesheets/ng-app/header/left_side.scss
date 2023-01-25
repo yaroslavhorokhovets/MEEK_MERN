@@ -1,0 +1,64 @@
+@import '../../base/vars.scss';
+@import '../../base/mixins.scss';
+@import '../../base/fonts.scss';
+#main-header {
+  .left-side {
+    display: table-cell;
+    white-space: nowrap;
+    width: 1%;
+    text-align: left;
+    vertical-align: top;
+
+    .logo {
+      width: $sidebar-width;
+      background-color: #fff;
+      text-align: center;
+
+      .header-logo {
+        background:  url('../../../images/logos/logo_2021.png') no-repeat;
+        background-position: center;
+        background-size: contain;
+        display: flex;
+        height: 90px;
+        margin: 0 auto;
+        vertical-align: middle;
+        width: 155px;
+      }
+    }
+
+    .toggle-sidebar-button {
+      display: none;
+      cursor: pointer;
+
+      &.icon-hamburger {
+        font-size: 24px;
+        min-width: initial;
+        padding: 0 20px;
+      }
+    }
+
+    .blog-link, .shop-link {
+      font-size: 14px;
+      font-weight: bold;
+      text-align: center;
+    }
+  }
+}
+
+@include tablet-portrait {
+  #main-header {
+    .left-side {
+      .toggle-sidebar-button { display: inline-block; }
+    }
+  }
+}
+
+@include mobile-landscape {
+  #main-header {
+    .left-side {
+      .logo { display: none; }
+      .blog-link { display: none; }
+      .shop-link { display: none; }
+    }
+  }
+}
